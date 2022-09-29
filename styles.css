@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+  background-color: rgb(60, 8, 90);
+  color: aliceblue;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.main-content {
+  display: flex;
+}
+
+.img {
+  background-image: url('https://source.unsplash.com/random/?computer');
+  width: 50vw;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+}
+
+.form-container h1 {
+  font-family: 'Noto Sans Mono', monospace;
+  margin: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form i {
+  color: rgb(60, 8, 90);
+}
+
+.form input {
+  margin: 5px;
+  border-color: rgb(153, 116, 174);
+}
+
+.form .btn {
+  background-color: rgb(60, 8, 90);
+  color: aliceblue;
+  border: none;
+  transition: ease-in-out 0.5s;
+}
+
+.form .btn:hover {
+  background-color: aliceblue;
+  color: rgb(60, 8, 90);
+  border: none;
+  transition: ease-in-out 0.5s;
+}
